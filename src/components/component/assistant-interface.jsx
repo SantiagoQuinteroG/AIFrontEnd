@@ -137,7 +137,7 @@ console.log(vectorStores)
           },
       });
         if (!response.ok) {
-          throw new Error ('Error al crear el Thread')
+          throw new Error ('Error al crear el Thread  .')
         }
         const result = await response.json();
         setThread(result.thread_id);
